@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: localhost:5000/my-backend:latest
+        image: v11821/my-backend:latest
         ports:
         - containerPort: 5000
 
